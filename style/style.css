@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  background: #F2F2F2;
+  color: #323232;
+  margin: 0;
+}
+
+h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.resume-wrap, header, section {
+	position: relative;
+}
+
+.resume-wrap{
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	max-width: 960px;
+	background: #f8f8f8;
+	margin: 50px auto 0;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.flex-content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-line:before{
+	position: absolute;
+	left: 0;
+	top: 50px;
+	content: '';
+	height: 20px;
+	width: 100%;
+	background: #debd30;
+}
+
+header {
+	width: 100%;
+	align-items: flex-end;
+}
+
+.resume {
+	position: absolute;
+	top: -2px;
+	left: 0;
+	text-transform: uppercase;
+	padding: 0 10px;
+	background: #f8f8f8;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.avatar {
+	padding: 0 20px;
+	background: #f8f8f8;
+	max-width: 20%;
+}
+
+.f-dev {
+	color: #debd30;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 100%;
+	margin-top: 40px;
+}
+
