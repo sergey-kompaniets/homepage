@@ -20,6 +20,34 @@ h1 {
 	margin-bottom: 10px;
 }
 
+h2 {
+	position: relative;
+	background: #323232;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 18px; 
+	padding: 10px;
+	color: #fff;
+}
+
+h3 {
+	background: #debd30;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 18px; 
+	padding: 10px;
+}
+
+h3>i {
+	padding: 0 15px 0 10px;
+}
+
+h4 {
+	color: #ccc;
+	font-size: 16px;
+	margin: 10px;
+}
+
 .resume-wrap, header, section {
 	position: relative;
 }
@@ -40,6 +68,7 @@ h1 {
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+	
 }
 
 .top-line:before{
@@ -83,4 +112,63 @@ header {
 	width: 100%;
 	margin-top: 40px;
 }
+
+/*sidebar*/
+
+aside {
+	width: 250px;
+	background-color: #363932;
+}
+
+aside>div>div>ul {
+	list-style-type: none;
+	color: #f8f8f8;
+	padding-left: 30px;
+}
+
+aside>div>div>p{
+	color: #ccc;
+	font-size: 14px;
+	padding: 0 30px;
+}
+
+.progressBar{
+  position: relative;
+  width: 85%;
+	height: 5px;
+	margin: 10px;
+	background: #eeeeee;
+}
+
+.progress{
+  height: 5px;
+  position: absolute;
+  background: #debd30;
+  width: 40%;
+}
+
+.contacts {
+	padding: 0 20px;
+	list-style-type: none;
+}
+
+.contacts>li>i {
+	margin-right: 15px;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	color: #ccc;
+
+}
+
+.contacts>li>a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.interests {
+	text-align: center;
+	color: #ccc;
+}
+
 
