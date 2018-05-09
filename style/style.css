@@ -168,23 +168,10 @@ aside>div>div>p{
 
 .bar-inner{
   height: 5px;
+  width: 0;
   position: absolute;
   background: #debd30;
-}
-
-.bar-8 {
-	width: 80%;
-}
-
-.bar-6 {
-	width: 60%;
-}
-
-.bar-4 {
-	width: 40%;
-}
-.bar-7 {
-	width: 70%;
+  transition: width 3000ms linear;
 }
 
 .contacts {
@@ -250,8 +237,13 @@ aside>div>div>p{
 	padding-right: 15px;
 }
 
-.blocks {
-
+.typed-cursor {
+	color: #debd30;
+  animation: blink 2s linear infinite;
 }
-
-
+/*
+@keyframes blink {
+  50% { color: rgb(34, 34, 34); }
+  51% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 0); }
+}*/
