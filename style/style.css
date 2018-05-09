@@ -239,11 +239,6 @@ aside>div>div>p{
 
 .typed-cursor {
 	color: #debd30;
-  animation: blink 2s linear infinite;
 }
-/*
-@keyframes blink {
-  50% { color: rgb(34, 34, 34); }
-  51% { color: rgba(34, 34, 34, 0); }
-  100% { color: rgba(34, 34, 34, 0); }
-}*/
+
+
