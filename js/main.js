@@ -3,7 +3,7 @@
 	bars.map((bar, index) => {
 		setTimeout(() => {
 			bar.style.width = bar.dataset.percent;
-		}, index * 1000);
+		}, index * 3000);
 	})
 })(document);
 
