@@ -28,6 +28,22 @@ h2 {
 	font-size: 18px; 
 	padding: 10px;
 	color: #fff;
+	
+}
+
+h2:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 100%;
+	background: #debd30;
+}
+
+h2>i {
+	padding: 0 15px 0 10px;
+	color: #debd30;
 }
 
 h3 {
@@ -48,6 +64,16 @@ h4 {
 	margin: 10px;
 }
 
+h5{
+	font-size: 20px;
+	margin: 10px;
+}
+
+sup {
+	font-size: 12px;
+	font-style: italic;
+}
+
 .resume-wrap, header, section {
 	position: relative;
 }
@@ -56,7 +82,7 @@ h4 {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	max-width: 960px;
 	background: #f8f8f8;
-	margin: 50px auto 0;
+	margin: 50px auto;
 	padding: 50px;
 	box-sizing: border-box;
 }
@@ -132,7 +158,7 @@ aside>div>div>p{
 	padding: 0 30px;
 }
 
-.progressBar{
+.bar{
   position: relative;
   width: 85%;
 	height: 5px;
@@ -140,11 +166,25 @@ aside>div>div>p{
 	background: #eeeeee;
 }
 
-.progress{
+.bar-inner{
   height: 5px;
   position: absolute;
   background: #debd30;
-  width: 40%;
+}
+
+.bar-8 {
+	width: 80%;
+}
+
+.bar-6 {
+	width: 60%;
+}
+
+.bar-4 {
+	width: 40%;
+}
+.bar-7 {
+	width: 70%;
 }
 
 .contacts {
@@ -169,6 +209,49 @@ aside>div>div>p{
 .interests {
 	text-align: center;
 	color: #ccc;
+}
+
+/*Main-content*/
+
+.main-content {
+	max-width: 580px;
+}
+
+.experience>p {
+	padding-left: 20px;
+}
+
+.experience>p>span {
+	font-size: 14px;
+}
+
+.language {
+	display: flex;
+	justify-content: space-between;
+}
+
+.language>span {
+	font-weight: bold;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+.content {
+	margin: 30px 0;
+
+}
+
+.contact {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact>p>i {
+	padding-right: 15px;
+}
+
+.blocks {
+
 }
 
 
