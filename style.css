@@ -1,0 +1,174 @@
+html {
+  box-sizing: border-box;
+  word-spacing: 2px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #91919147;
+  color: #0e0e0e;
+  margin: 0;
+}
+
+a{
+	
+	color: #1c1c1a;
+	font-size: 14px;
+}
+
+h1{
+	text-transform: uppercase;
+	color: #10100e;
+	font-size: 34px;
+	margin: 20px 0;
+}
+
+h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	display:inline-block;
+  position:relative;
+}
+
+h3::after{
+	content:'';
+  height:1px;
+  width:50%;
+  background: #ffa700;
+  position:absolute;
+  left: 0;
+  bottom:-3px;
+}
+
+h4{
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0;
+}
+
+h5{
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.f-dev{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #ffa700;
+
+}
+
+.avatar {
+	margin-right: 20px;
+	height: 110%;
+	border-radius: 50%;
+}
+
+.resume-wrap, header {
+	position: relative;
+}
+
+.resume-wrap{
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 960px;
+	background: #f8f8f8;
+	margin: 0 auto;
+	padding: 30px 50px;
+	box-sizing: border-box;
+	
+}
+
+.flex-content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+ 
+.education-grid-container, 
+.experience-grid-container {
+  display: grid;
+  grid-template-columns: 25% auto;
+}
+
+.grid-container {
+	display: grid;
+  grid-template-columns: 25% auto 70%;
+  grid-column-gap: 30px;
+}
+
+.lang-grid-container, .social-grid-container {
+	display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.header-grid {
+	display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.vertical-line {
+	width: 1px;
+	height: 100%;
+	background: #ccc;
+}
+
+.top-line {
+	width: 70%;
+	height: 1px;
+	background: #ccc;
+}
+
+.top-line-content {
+	width: 600px;
+	height: 1px;
+	background: #ccc;
+}
+
+.title-name {
+	margin-top: 35px;
+}
+
+.triangle-topleft {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-top: 1400px solid #6a6c69; 
+	border-right: 1450px solid transparent;			
+}
+
+.experience-date{
+	font-size: 14px; 
+	font-weight: bold;
+}
+
+.experience {
+	padding: 10px
+}
+
+.item{
+	background: #ffa700;
+	color: white;
+}
+
+.container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(5, 1fr);	
+}
+
+.item9 {
+	background: maroon;
+	grid-column: span 2;
+	grid-row: span 2;
+}
